@@ -8,13 +8,80 @@
     <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
 </head>
 <body>
     <header>
-        <div class="serachform">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <button type="submit"></button>
-        </div>
+        <form>
+            <!-- Top Header: Search Form -->
+            <div class="search-form">
+                <div class="logo">
+                    <a href="http://www.google.com">
+                        <img src="img/logo.png" alt="logo" class="logo" height="30" width="92">
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <div class="search-field">
+                        <div class="search-icon-box">
+                            <div class="search-icon">
+                                <span class="center-blue-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                    width="22" height="22"
+                                    viewBox="0 0 224 224"
+                                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#4285f4"><path d="M84,18.66667c-35.97205,0 -65.33333,29.36128 -65.33333,65.33333c0,35.97206 29.36128,65.33333 65.33333,65.33333c16.31465,0 31.22008,-6.08511 42.69271,-16.04167l3.97396,3.97396v12.06771l56,56l18.66667,-18.66667l-56,-56h-12.06771l-3.97396,-3.97396c9.95656,-11.47263 16.04167,-26.37806 16.04167,-42.69271c0,-35.97205 -29.36128,-65.33333 -65.33333,-65.33333zM84,37.33333c25.88383,0 46.66667,20.78283 46.66667,46.66667c0,25.88383 -20.78283,46.66667 -46.66667,46.66667c-25.88384,0 -46.66667,-20.78283 -46.66667,-46.66667c0,-25.88384 20.78283,-46.66667 46.66667,-46.66667z"></path></g></g></svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="search-container">
+                            <input class="word-search" maxlength="2048" type="text" placeholder="Search">
+                            <div class="microphone">
+                                <span class="center-microphone">
+                                    <img src="/img/google-mic.png" alt="google-mic" height="20" width="14">
+                                </span>
+                            </div>
+                        </div>
+                        <button class="arrow" type="submit">
+                            <div class="arrow-submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="28" height="28"
+                                viewBox="0 0 224 224"
+                                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g fill="#3498db"><g id="surface1"><path d="M131.03125,47.46875l-10.0625,10.0625l47.46875,47.46875h-140.4375v14h140.4375l-47.46875,47.46875l10.0625,10.0625l59.5,-59.5l4.8125,-5.03125l-4.8125,-5.03125z"></path></g></g></g></svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <img src="/img/grid.png" alt="grid">
+                    <button id="sign-in" type="button">Sign in</button>
+                </div>
+            </div>
+
+            <!-- Bottom Header: Tabs -->
+            <div class="navigation" id="navbar">
+                <div class="bottom-header">
+                    <div class="align-list">
+                        <div class="tabs">
+                            <ul class="tab-index">
+                                <li id="li-highlight"><a href="#">All</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li><a href="#">Shopping</a></li>
+                                <li><a href="#">Maps</a></li>
+                                <li><a href="#">More</a></li>
+                                <li id="li-right-padding"><a href="#">Setting</a></li>
+                                <li><a href="#">Tools</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
     </header>
+
+    <!-- <footer>
+        <a href="https://icons8.com/icon/84039/search">Search icon by Icons8</a>
+    </footer> -->
 </body>
 </html>
