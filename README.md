@@ -1,0 +1,1 @@
+For this project, I remade a Google search result for "dad jokes" because those things are so amazing. Though the links to the websites will work, the entire project is just a practice for HTML and CSS styling. This is a single page project. 
